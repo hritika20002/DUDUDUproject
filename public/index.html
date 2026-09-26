@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta
+    name="theme-color"
+    content="#090b16"
+  >
+
+  <meta
+    name="description"
+    content="Lowkey Sus is a multiplayer social deduction game where one player gets a slightly different question."
+  >
+
+  <title>Lowkey Sus — Multiplayer Party Game</title>
+
+  <link
+    rel="stylesheet"
+    href="/style.css"
+  >
+</head>
+
+<body>
+  <main class="shell">
+
+    <header>
+      <span class="mark">?</span>
+
+      <div>
+        <h1>LOWKEY SUS</h1>
+        <p>
+          Everyone got the same question. Almost.
+        </p>
+      </div>
+    </header>
+
+    <div
+      id="status"
+      role="status"
+      aria-live="polite"
+    ></div>
+
+    <section id="app"></section>
+
+    <footer>
+      5 rounds · 2–8 players · Best with 3+ · One player is lowkey sus
+    </footer>
+
+  </main>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

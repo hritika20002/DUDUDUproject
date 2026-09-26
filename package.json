@@ -1,0 +1,1 @@
+{"name":"odd-prompt-party","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.js","dev":"node --watch server.js","test":"node --test"},"dependencies":{"express":"^4.21.2","socket.io":"^4.8.1"},"engines":{"node":">=20"},"devDependencies":{"socket.io-client":"^4.8.4"}}
